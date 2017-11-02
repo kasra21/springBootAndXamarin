@@ -1,0 +1,8 @@
+com\boot\demo\controller\UserController.class
+com\boot\demo\services\UserService.class
+com\boot\demo\SpringBootWebApplication.class
+com\boot\demo\model\User.class
+com\boot\demo\model\AddUpdateUserCriteria.class
+com\boot\demo\model\AjaxResponseBody.class
+com\boot\demo\controller\IndexController.class
+com\boot\demo\model\SearchOrDeleteCriteria.class
