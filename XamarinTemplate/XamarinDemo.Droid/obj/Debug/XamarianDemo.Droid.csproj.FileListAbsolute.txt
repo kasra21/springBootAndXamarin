@@ -1,0 +1,2 @@
+C:\kasra\Source\Tutorial\XAM150 - RestConect\Exercise 3\Completed\BookClient.Droid\obj\Debug\XamarianDemo.Droid.csprojResolveAssemblyReference.cache
+C:\kasra\Source\Tutorial\XAM150 - RestConect\Exercise 3\Completed\BookClient.Droid\obj\Debug\XamarianDemo.Droid.csproj.CoreCompileInputs.cache
