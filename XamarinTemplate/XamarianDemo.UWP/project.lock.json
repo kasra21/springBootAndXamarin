@@ -24196,12 +24196,12 @@
   },
   "project": {
     "restore": {
-      "projectUniqueName": "C:\\kasra\\Source\\Tutorial\\XAM150 - RestConect\\Exercise 3\\Completed\\BookClient.UWP\\XamarinDemo.UWP.csproj",
+      "projectUniqueName": "C:\\kasra\\GitHub\\XamarinTemplate\\XamarianDemo.UWP\\XamarinDemo.UWP.csproj",
       "projectName": "XamarinDemo.UWP",
-      "projectPath": "C:\\kasra\\Source\\Tutorial\\XAM150 - RestConect\\Exercise 3\\Completed\\BookClient.UWP\\XamarinDemo.UWP.csproj",
-      "projectJsonPath": "C:\\kasra\\Source\\Tutorial\\XAM150 - RestConect\\Exercise 3\\Completed\\BookClient.UWP\\project.json",
+      "projectPath": "C:\\kasra\\GitHub\\XamarinTemplate\\XamarianDemo.UWP\\XamarinDemo.UWP.csproj",
+      "projectJsonPath": "C:\\kasra\\GitHub\\XamarinTemplate\\XamarianDemo.UWP\\project.json",
       "packagesPath": "C:\\Users\\svuser\\.nuget\\packages\\",
-      "outputPath": "C:\\kasra\\Source\\Tutorial\\XAM150 - RestConect\\Exercise 3\\Completed\\BookClient.UWP\\obj\\",
+      "outputPath": "C:\\kasra\\GitHub\\XamarinTemplate\\XamarianDemo.UWP\\obj\\",
       "projectStyle": "ProjectJson",
       "configFilePaths": [
         "C:\\Users\\svuser\\AppData\\Roaming\\NuGet\\NuGet.Config",
