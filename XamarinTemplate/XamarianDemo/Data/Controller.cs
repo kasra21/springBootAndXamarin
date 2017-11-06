@@ -11,8 +11,7 @@ namespace XamarinDemo.Data
 {
 	public class Controller
 	{
-		const string BaseUrl = "http://192.168.56.1:8080/api/";
-		private string authorizationKey;
+		const string BaseUrl = "http://172.16.131.222:8080/api/";
 
 		public async Task<IEnumerable<User>> GetAllUsers() {
 
