@@ -23,3 +23,28 @@ C:\kasra\Source\Tutorial\XAM150 - RestConect\Exercise 3\Completed\XamarianDemo\o
 C:\kasra\Source\Tutorial\XAM150 - RestConect\Exercise 3\Completed\XamarianDemo\obj\Debug\BookClient.MainPage.xaml.g.cs
 C:\kasra\Source\Tutorial\XAM150 - RestConect\Exercise 3\Completed\XamarianDemo\obj\Debug\BookClient.dll
 C:\kasra\Source\Tutorial\XAM150 - RestConect\Exercise 3\Completed\XamarianDemo\obj\Debug\BookClient.pdb
+C:\kasra\Git\springBootAndXamarin\XamarinTemplate\XamarianDemo\bin\Debug\BookClient.dll.config
+C:\kasra\Git\springBootAndXamarin\XamarinTemplate\XamarianDemo\bin\Debug\BookClient.dll
+C:\kasra\Git\springBootAndXamarin\XamarinTemplate\XamarianDemo\bin\Debug\BookClient.pdb
+C:\kasra\Git\springBootAndXamarin\XamarinTemplate\XamarianDemo\bin\Debug\Newtonsoft.Json.dll
+C:\kasra\Git\springBootAndXamarin\XamarinTemplate\XamarianDemo\bin\Debug\System.Net.Http.dll
+C:\kasra\Git\springBootAndXamarin\XamarinTemplate\XamarianDemo\bin\Debug\System.Net.Http.Extensions.dll
+C:\kasra\Git\springBootAndXamarin\XamarinTemplate\XamarianDemo\bin\Debug\System.Net.Http.Primitives.dll
+C:\kasra\Git\springBootAndXamarin\XamarinTemplate\XamarianDemo\bin\Debug\Xamarin.Forms.Core.dll
+C:\kasra\Git\springBootAndXamarin\XamarinTemplate\XamarianDemo\bin\Debug\Xamarin.Forms.Platform.dll
+C:\kasra\Git\springBootAndXamarin\XamarinTemplate\XamarianDemo\bin\Debug\Xamarin.Forms.Xaml.dll
+C:\kasra\Git\springBootAndXamarin\XamarinTemplate\XamarianDemo\bin\Debug\Newtonsoft.Json.xml
+C:\kasra\Git\springBootAndXamarin\XamarinTemplate\XamarianDemo\bin\Debug\System.Net.Http.xml
+C:\kasra\Git\springBootAndXamarin\XamarinTemplate\XamarianDemo\bin\Debug\System.Net.Http.Extensions.xml
+C:\kasra\Git\springBootAndXamarin\XamarinTemplate\XamarianDemo\bin\Debug\System.Net.Http.Primitives.xml
+C:\kasra\Git\springBootAndXamarin\XamarinTemplate\XamarianDemo\bin\Debug\Xamarin.Forms.Core.pdb
+C:\kasra\Git\springBootAndXamarin\XamarinTemplate\XamarianDemo\bin\Debug\Xamarin.Forms.Core.xml
+C:\kasra\Git\springBootAndXamarin\XamarinTemplate\XamarianDemo\bin\Debug\Xamarin.Forms.Platform.pdb
+C:\kasra\Git\springBootAndXamarin\XamarinTemplate\XamarianDemo\bin\Debug\Xamarin.Forms.Xaml.pdb
+C:\kasra\Git\springBootAndXamarin\XamarinTemplate\XamarianDemo\bin\Debug\Xamarin.Forms.Xaml.xml
+C:\kasra\Git\springBootAndXamarin\XamarinTemplate\XamarianDemo\obj\Debug\XamarinDemo.csproj.App.config
+C:\kasra\Git\springBootAndXamarin\XamarinTemplate\XamarianDemo\obj\Debug\XamarinDemo.csprojResolveAssemblyReference.cache
+C:\kasra\Git\springBootAndXamarin\XamarinTemplate\XamarianDemo\obj\Debug\XamarinDemo.csproj.CoreCompileInputs.cache
+C:\kasra\Git\springBootAndXamarin\XamarinTemplate\XamarianDemo\obj\Debug\BookClient.MainPage.xaml.g.cs
+C:\kasra\Git\springBootAndXamarin\XamarinTemplate\XamarianDemo\obj\Debug\BookClient.dll
+C:\kasra\Git\springBootAndXamarin\XamarinTemplate\XamarianDemo\obj\Debug\BookClient.pdb
