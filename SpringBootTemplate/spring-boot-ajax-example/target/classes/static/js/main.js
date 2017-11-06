@@ -1,11 +1,16 @@
 $(document).ready(function () {
-
+	
+	$('#userTable')[0].hidden = true;
 	$("#getBtn")[0].onclick = onGetClick;
     $("#searchBtn")[0].onclick = onSearchClick;
     $("#deleteBtn")[0].onclick = onDeleteClick;
     $("#addBtn")[0].onclick = onAddClick;
     
 
+    $('#userTable').on('click', '.clickable-row', function(event) {
+    	  $(this).addClass('active').siblings().removeClass('active');
+    });
+    
 });
 
 this.onGetClick = function() {
@@ -24,13 +29,24 @@ this.onGetClick = function() {
             var json = "<h4>Ajax Response</h4><pre>"
                 + JSON.stringify(data, null, 4) + "</pre>";
             $('#feedback').html(json);
-
+            
+            var content = "";
+            for(var i = 0; i<data.result.length; i++){
+            	content += "<tr class='clickable-row'><td>" + data.result[i].first + " " + data.result[i].last
+            	+ "</td><td>" + data.result[i].username + "</td><td>" + data.result[i].email + "</td></tr>";
+            }
+            $('#userTableBody').html(content);
+            
+            $('#userTable')[0].hidden = false;
+            
             console.log("SUCCESS : ", data);
             $("#getBtn").prop("disabled", false);
 
         },
         error: function (e) {
-
+        	
+        	$('#userTable')[0].hidden = true;
+        	
             var json = "<h4>Ajax Response</h4><pre>"
                 + e.responseText + "</pre>";
             $('#feedback').html(json);

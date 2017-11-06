@@ -24196,12 +24196,12 @@
   },
   "project": {
     "restore": {
-      "projectUniqueName": "C:\\kasra\\GitHub\\XamarinTemplate\\XamarianDemo.UWP\\XamarinDemo.UWP.csproj",
+      "projectUniqueName": "C:\\kasra\\Git\\springBootAndXamarin\\XamarinTemplate\\XamarianDemo.UWP\\XamarinDemo.UWP.csproj",
       "projectName": "XamarinDemo.UWP",
-      "projectPath": "C:\\kasra\\GitHub\\XamarinTemplate\\XamarianDemo.UWP\\XamarinDemo.UWP.csproj",
-      "projectJsonPath": "C:\\kasra\\GitHub\\XamarinTemplate\\XamarianDemo.UWP\\project.json",
+      "projectPath": "C:\\kasra\\Git\\springBootAndXamarin\\XamarinTemplate\\XamarianDemo.UWP\\XamarinDemo.UWP.csproj",
+      "projectJsonPath": "C:\\kasra\\Git\\springBootAndXamarin\\XamarinTemplate\\XamarianDemo.UWP\\project.json",
       "packagesPath": "C:\\Users\\svuser\\.nuget\\packages\\",
-      "outputPath": "C:\\kasra\\GitHub\\XamarinTemplate\\XamarianDemo.UWP\\obj\\",
+      "outputPath": "C:\\kasra\\Git\\springBootAndXamarin\\XamarinTemplate\\XamarianDemo.UWP\\obj\\",
       "projectStyle": "ProjectJson",
       "configFilePaths": [
         "C:\\Users\\svuser\\AppData\\Roaming\\NuGet\\NuGet.Config",
