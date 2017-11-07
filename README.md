@@ -34,4 +34,6 @@ Then assuming that the database is already set up you may access the app from:
 Or by making rest requests or by using postman or equivalent software
 	
 The `XamarinTemplate` can be built on visual studio (Only tested on Android so far)
+If there is any problem building the xamarin project on visual studio, try a "clean solution" before building it again
+
 However keep in mind that it is trying to access a given IP address for the moment, that machine needs to be running with the `SpringBootTemplate` piece and also with the database
