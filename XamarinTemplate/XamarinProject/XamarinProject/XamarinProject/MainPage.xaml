@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:infrastructure="clr-namespace:XamarinProject.Infrastructure;assembly=XamarinProject"
+             x:Class="XamarinProject.MainPage" x:Name="ThePage"
+             Title="Xamarian Demo" Appearing="OnRefresh">
+	<ContentPage.ToolbarItems>
+		<ToolbarItem Text="Add New" Icon="ic_action_new.png" Clicked="OnAddNewUser" />
+		<ToolbarItem Text="Refresh" Icon="ic_autorenew.png" Clicked="OnRefresh" />
+	</ContentPage.ToolbarItems>
+
+	<Grid BackgroundColor="#030303">
+		<ListView ItemsSource="{Binding}"
+                  ItemTapped="OnEditUser">
+			<ListView.ItemTemplate>
+				<DataTemplate>
+					<TextCell Text="{Binding email}" Detail="{Binding username}" TextColor="#33FFC0" DetailColor="#ffffff">
+						<TextCell.ContextActions>
+							<MenuItem Clicked="OnDeleteUser"
+                        CommandParameter="{Binding}"
+                        Text="Delete" IsDestructive="True" />
+						</TextCell.ContextActions>
+					</TextCell>
+				</DataTemplate>
+			</ListView.ItemTemplate>
+		</ListView>
+
+		<StackLayout IsVisible="{Binding Source={x:Reference ThePage}, Path=IsBusy}"
+                    HorizontalOptions="Center" VerticalOptions="CenterAndExpand" Padding="20">
+			<Label Text="Loading Data..." TextColor="Gray" HorizontalOptions="Center" />
+			<ActivityIndicator IsRunning="{Binding Source={x:Reference ThePage}, Path=IsBusy}" Color="Accent" >
+			</ActivityIndicator>
+		</StackLayout>
+
+	</Grid>
+</ContentPage>

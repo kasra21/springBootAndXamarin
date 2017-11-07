@@ -1,0 +1,17 @@
+C:\kasra\myPro\XamarinProject\XamarinProject\XamarinProject\bin\Debug\XamarinProject.dll
+C:\kasra\myPro\XamarinProject\XamarinProject\XamarinProject\bin\Debug\XamarinProject.pdb
+C:\kasra\myPro\XamarinProject\XamarinProject\XamarinProject\bin\Debug\Newtonsoft.Json.dll
+C:\kasra\myPro\XamarinProject\XamarinProject\XamarinProject\bin\Debug\Xamarin.Forms.Core.dll
+C:\kasra\myPro\XamarinProject\XamarinProject\XamarinProject\bin\Debug\Xamarin.Forms.Platform.dll
+C:\kasra\myPro\XamarinProject\XamarinProject\XamarinProject\bin\Debug\Xamarin.Forms.Xaml.dll
+C:\kasra\myPro\XamarinProject\XamarinProject\XamarinProject\bin\Debug\Newtonsoft.Json.xml
+C:\kasra\myPro\XamarinProject\XamarinProject\XamarinProject\bin\Debug\Xamarin.Forms.Core.pdb
+C:\kasra\myPro\XamarinProject\XamarinProject\XamarinProject\bin\Debug\Xamarin.Forms.Core.xml
+C:\kasra\myPro\XamarinProject\XamarinProject\XamarinProject\bin\Debug\Xamarin.Forms.Xaml.pdb
+C:\kasra\myPro\XamarinProject\XamarinProject\XamarinProject\bin\Debug\Xamarin.Forms.Xaml.xml
+C:\kasra\myPro\XamarinProject\XamarinProject\XamarinProject\obj\Debug\XamarinProject.csprojResolveAssemblyReference.cache
+C:\kasra\myPro\XamarinProject\XamarinProject\XamarinProject\obj\Debug\XamarinProject.csproj.CoreCompileInputs.cache
+C:\kasra\myPro\XamarinProject\XamarinProject\XamarinProject\obj\Debug\XamarinProject.MainPage.xaml.g.cs
+C:\kasra\myPro\XamarinProject\XamarinProject\XamarinProject\obj\Debug\XamarinProject.App.xaml.g.cs
+C:\kasra\myPro\XamarinProject\XamarinProject\XamarinProject\obj\Debug\XamarinProject.dll
+C:\kasra\myPro\XamarinProject\XamarinProject\XamarinProject\obj\Debug\XamarinProject.pdb
