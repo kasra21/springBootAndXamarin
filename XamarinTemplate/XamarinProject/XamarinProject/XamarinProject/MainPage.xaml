@@ -2,14 +2,19 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:infrastructure="clr-namespace:XamarinProject.Infrastructure;assembly=XamarinProject"
+						 xmlns:local="clr-namespace:XamarinProject;assembly=XamarinProject"
              x:Class="XamarinProject.MainPage" x:Name="ThePage"
              Title="Xamarin Demo" Appearing="OnRefresh">
 	<ContentPage.ToolbarItems>
 		<ToolbarItem Text="Add New" Icon="ic_action_new.png" Clicked="OnAddNewUser" />
 		<ToolbarItem Text="Refresh" Icon="ic_autorenew.png" Clicked="OnRefresh" />
 	</ContentPage.ToolbarItems>
+	<StackLayout BackgroundColor="#030303">
+		<StackLayout Orientation="Horizontal">
+			<Label Text="Search: " TextColor="#33FFC0" VerticalTextAlignment="Center" />
+			<local:LineEntry x:Name="SearchInput" Completed="OnSearchChange"  HorizontalOptions="FillAndExpand" TextColor="#ffffff" />
+		</StackLayout>
 
-	<Grid BackgroundColor="#030303">
 		<ListView ItemsSource="{Binding}"
                   ItemTapped="OnEditUser">
 			<ListView.ItemTemplate>
@@ -32,5 +37,5 @@
 			</ActivityIndicator>
 		</StackLayout>
 
-	</Grid>
+	</StackLayout>
 </ContentPage>

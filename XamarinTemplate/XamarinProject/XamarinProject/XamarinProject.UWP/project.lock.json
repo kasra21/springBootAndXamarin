@@ -27947,12 +27947,12 @@
   },
   "project": {
     "restore": {
-      "projectUniqueName": "C:\\kasra\\Git\\xDemo\\XamarinTemplate\\XamarinProject\\XamarinProject\\XamarinProject.UWP\\XamarinProject.UWP.csproj",
+      "projectUniqueName": "C:\\kasra\\Git\\xDemo2\\XamarinTemplate\\XamarinProject\\XamarinProject\\XamarinProject.UWP\\XamarinProject.UWP.csproj",
       "projectName": "XamarinProject.UWP",
-      "projectPath": "C:\\kasra\\Git\\xDemo\\XamarinTemplate\\XamarinProject\\XamarinProject\\XamarinProject.UWP\\XamarinProject.UWP.csproj",
-      "projectJsonPath": "C:\\kasra\\Git\\xDemo\\XamarinTemplate\\XamarinProject\\XamarinProject\\XamarinProject.UWP\\project.json",
+      "projectPath": "C:\\kasra\\Git\\xDemo2\\XamarinTemplate\\XamarinProject\\XamarinProject\\XamarinProject.UWP\\XamarinProject.UWP.csproj",
+      "projectJsonPath": "C:\\kasra\\Git\\xDemo2\\XamarinTemplate\\XamarinProject\\XamarinProject\\XamarinProject.UWP\\project.json",
       "packagesPath": "C:\\Users\\svuser\\.nuget\\packages\\",
-      "outputPath": "C:\\kasra\\Git\\xDemo\\XamarinTemplate\\XamarinProject\\XamarinProject\\XamarinProject.UWP\\obj\\",
+      "outputPath": "C:\\kasra\\Git\\xDemo2\\XamarinTemplate\\XamarinProject\\XamarinProject\\XamarinProject.UWP\\obj\\",
       "projectStyle": "ProjectJson",
       "configFilePaths": [
         "C:\\Users\\svuser\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -27965,8 +27965,8 @@
       "frameworks": {
         "uap10.0.10586": {
           "projectReferences": {
-            "C:\\kasra\\Git\\xDemo\\XamarinTemplate\\XamarinProject\\XamarinProject\\XamarinProject\\XamarinProject.csproj": {
-              "projectPath": "C:\\kasra\\Git\\xDemo\\XamarinTemplate\\XamarinProject\\XamarinProject\\XamarinProject\\XamarinProject.csproj"
+            "C:\\kasra\\Git\\xDemo2\\XamarinTemplate\\XamarinProject\\XamarinProject\\XamarinProject\\XamarinProject.csproj": {
+              "projectPath": "C:\\kasra\\Git\\xDemo2\\XamarinTemplate\\XamarinProject\\XamarinProject\\XamarinProject\\XamarinProject.csproj"
             }
           }
         }

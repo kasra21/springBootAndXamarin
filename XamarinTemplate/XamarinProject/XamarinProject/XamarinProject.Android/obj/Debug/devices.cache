@@ -1,15 +1,15 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Devices>
+  <Device id="9887bc444b4441454a">
+    <ResultingAbi>armeabi-v7a</ResultingAbi>
+    <SdkVersion>24</SdkVersion>
+  </Device>
   <Device id="emulator-5554">
     <ResultingAbi>x86</ResultingAbi>
     <SdkVersion>25</SdkVersion>
   </Device>
   <Device id="emulator-5556">
-    <ResultingAbi>armeabi-v7a</ResultingAbi>
-    <SdkVersion>25</SdkVersion>
-  </Device>
-  <Device id="9887bc444b4441454a">
-    <ResultingAbi>armeabi-v7a</ResultingAbi>
-    <SdkVersion>24</SdkVersion>
+    <ResultingAbi>x86</ResultingAbi>
+    <SdkVersion>21</SdkVersion>
   </Device>
 </Devices>

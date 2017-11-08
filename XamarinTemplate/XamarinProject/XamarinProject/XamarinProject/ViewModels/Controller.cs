@@ -27,6 +27,20 @@ namespace XamarinProject.ViewModels
 
 		}
 
+		public async Task<IEnumerable<User>> GetUser(string username) {
+
+			HttpClient client = new HttpClient();
+			var response = await client.PostAsync(BaseUrl + "search",
+			new StringContent("{\"username\": \"" + username + "\"}", Encoding.UTF8, "application/json"));
+			string result = await response.Content.ReadAsStringAsync();
+			Object responseObj = JsonConvert.DeserializeObject(result);
+
+			string actuallResult = result.Substring(result.IndexOf('['), result.IndexOf(']') - result.IndexOf('[') + 1);
+
+			return JsonConvert.DeserializeObject<IEnumerable<User>>(actuallResult);
+
+		}
+
 		public async Task<User> Add(string username, string email, string first, string last) {
 
 			User user = new User() {

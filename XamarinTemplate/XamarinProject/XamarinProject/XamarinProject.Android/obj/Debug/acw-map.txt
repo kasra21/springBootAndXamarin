@@ -1,3 +1,7 @@
+XamarinProject.Droid.LineEntryRenderer, XamarinProject.Android;md5e9b015cdf470a2fd24f1e2998ab84d60.LineEntryRenderer
+XamarinProject.Droid.LineEntryRenderer, XamarinProject.Android, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md5e9b015cdf470a2fd24f1e2998ab84d60.LineEntryRenderer
+XamarinProject.Droid.LineEntryRenderer;md5e9b015cdf470a2fd24f1e2998ab84d60.LineEntryRenderer
+xamarinproject.droid.LineEntryRenderer;md5e9b015cdf470a2fd24f1e2998ab84d60.LineEntryRenderer
 XamarinProject.Droid.MainActivity, XamarinProject.Android;md5e9b015cdf470a2fd24f1e2998ab84d60.MainActivity
 XamarinProject.Droid.MainActivity, XamarinProject.Android, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md5e9b015cdf470a2fd24f1e2998ab84d60.MainActivity
 XamarinProject.Droid.MainActivity;md5e9b015cdf470a2fd24f1e2998ab84d60.MainActivity

@@ -21,6 +21,27 @@ namespace XamarinProject
 			InitializeComponent();
 		}
 
+		async void OnSearchChange(object sender, EventArgs e) {
+
+			this.IsBusy = true;
+			SearchInput.IsEnabled = false;
+
+			try {
+				var userCollection = await controller.GetUser(SearchInput.Text);
+				users.Clear();
+				if (userCollection != null) {
+					foreach (User user in userCollection) {
+						if (users.All(b => b.username != user.username))
+							users.Add(user);
+					}
+				}
+			}
+			finally {
+				this.IsBusy = false;
+				SearchInput.IsEnabled = true;
+			}
+		}
+
 		async void OnRefresh(object sender, EventArgs e) {
 			// Turn on network indicator
 			this.IsBusy = true;

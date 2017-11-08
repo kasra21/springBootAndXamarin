@@ -36,7 +36,7 @@ namespace XamarinProject.Views
 																TextColor=Color.FromHex("#33FFC0"),
 																Text="Username",
 																VerticalTextAlignment=TextAlignment.Center},
-															(usernameCell = new Entry{
+															(usernameCell = new LineEntry{
 																HorizontalOptions=LayoutOptions.FillAndExpand,
 																TextColor=Color.FromHex("#ffffff"),
 																Text = (existingUser != null) ? existingUser.username : null,
@@ -53,7 +53,7 @@ namespace XamarinProject.Views
 																TextColor=Color.FromHex("#33FFC0"),
 																Text="Email",
 															  VerticalTextAlignment=TextAlignment.Center},
-															(emailCell = new Entry{
+															(emailCell = new LineEntry{
 																HorizontalOptions=LayoutOptions.FillAndExpand,
 																TextColor=Color.FromHex("#ffffff"),
 																Text = (existingUser != null) ? existingUser.email : null
@@ -69,7 +69,7 @@ namespace XamarinProject.Views
 																TextColor=Color.FromHex("#33FFC0"),
 																Text="First Name",
 																VerticalTextAlignment=TextAlignment.Center},
-															(firstCell = new Entry{
+															(firstCell = new LineEntry{
 																HorizontalOptions=LayoutOptions.FillAndExpand,
 																TextColor=Color.FromHex("#ffffff"),
 																Text = (existingUser != null) ? existingUser.first : null
@@ -85,7 +85,7 @@ namespace XamarinProject.Views
 																TextColor=Color.FromHex("#33FFC0"),
 																Text="Last Name",
 																VerticalTextAlignment=TextAlignment.Center},
-															(lastCell = new Entry{
+															(lastCell = new LineEntry{
 																HorizontalOptions=LayoutOptions.FillAndExpand,
 																TextColor=Color.FromHex("#ffffff"),
 																Text = (existingUser != null) ? existingUser.last : null
