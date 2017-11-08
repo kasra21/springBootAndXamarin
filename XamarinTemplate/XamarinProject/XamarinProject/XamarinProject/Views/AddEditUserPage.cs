@@ -13,7 +13,7 @@ namespace XamarinProject.Views
 	{
 
 		readonly User existingUser;
-		readonly EntryCell usernameCell, emailCell, firstCell, lastCell;
+		readonly Entry usernameCell, emailCell, firstCell, lastCell;
 		readonly IList<User> users;
 		readonly Controller controller;
 
@@ -24,31 +24,75 @@ namespace XamarinProject.Views
 			this.existingUser = existingUser;
 
 			var tableView = new TableView {
-				BackgroundColor= Color.FromHex("#030303"),
 				Intent = TableIntent.Form,
 				Root = new TableRoot(existingUser != null ? "Existing User" : "New User") {
-										new TableSection("User Details") {
-												(usernameCell = new EntryCell {
-													  LabelColor=Color.FromHex("#ffffff"),
-														Label = "Username",
-														Text = (existingUser != null) ? existingUser.username : null,
-														IsEnabled = (existingUser == null)
-												}),
-												(emailCell = new EntryCell {
-														LabelColor=Color.FromHex("#ffffff"),
-														Label = "Email",
-														Text = (existingUser != null) ? existingUser.email : null
-												}),
-												(firstCell = new EntryCell {
-														LabelColor=Color.FromHex("#ffffff"),
-														Label = "First Name",
-														Text = (existingUser != null) ? existingUser.first : null
-												}),
-												(lastCell = new EntryCell {
-														LabelColor=Color.FromHex("#ffffff"),
-														Label = "Last Name",
-														Text = (existingUser != null) ? existingUser.last : null
-												}),
+										new TableSection() {
+												new TextCell { Text="User Detail", TextColor=Color.FromHex("#ffffff") },
+												new ViewCell {
+													View = new StackLayout {
+														Orientation=StackOrientation.Horizontal,
+														Children = {
+															new Label{
+																TextColor=Color.FromHex("#33FFC0"),
+																Text="Username",
+																VerticalTextAlignment=TextAlignment.Center},
+															(usernameCell = new Entry{
+																HorizontalOptions=LayoutOptions.FillAndExpand,
+																TextColor=Color.FromHex("#ffffff"),
+																Text = (existingUser != null) ? existingUser.username : null,
+																IsEnabled = (existingUser == null)
+															})
+														},
+													}
+												},
+												new ViewCell {
+													View = new StackLayout {
+														Orientation=StackOrientation.Horizontal,
+														Children = {
+															new Label{
+																TextColor=Color.FromHex("#33FFC0"),
+																Text="Email",
+															  VerticalTextAlignment=TextAlignment.Center},
+															(emailCell = new Entry{
+																HorizontalOptions=LayoutOptions.FillAndExpand,
+																TextColor=Color.FromHex("#ffffff"),
+																Text = (existingUser != null) ? existingUser.email : null
+															})
+														},
+													}
+												},
+												new ViewCell {
+													View = new StackLayout {
+														Orientation=StackOrientation.Horizontal,
+														Children = {
+															new Label{
+																TextColor=Color.FromHex("#33FFC0"),
+																Text="First Name",
+																VerticalTextAlignment=TextAlignment.Center},
+															(firstCell = new Entry{
+																HorizontalOptions=LayoutOptions.FillAndExpand,
+																TextColor=Color.FromHex("#ffffff"),
+																Text = (existingUser != null) ? existingUser.first : null
+															})
+														},
+													}
+												},
+												new ViewCell {
+													View = new StackLayout {
+														Orientation=StackOrientation.Horizontal,
+														Children = {
+															new Label{
+																TextColor=Color.FromHex("#33FFC0"),
+																Text="Last Name",
+																VerticalTextAlignment=TextAlignment.Center},
+															(lastCell = new Entry{
+																HorizontalOptions=LayoutOptions.FillAndExpand,
+																TextColor=Color.FromHex("#ffffff"),
+																Text = (existingUser != null) ? existingUser.last : null
+															})
+														},
+													}
+												},
 										},
 								}
 			};
@@ -62,6 +106,7 @@ namespace XamarinProject.Views
 			button.Clicked += OnDismiss;
 
 			Content = new StackLayout {
+				BackgroundColor = Color.FromHex("#030303"),
 				Spacing = 0,
 				Children = { tableView, button },
 			};

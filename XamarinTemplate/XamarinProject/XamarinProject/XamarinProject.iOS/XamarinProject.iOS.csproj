@@ -141,12 +141,6 @@
     <Reference Include="Xamarin.iOS" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\XamarinProject\XamarinProject.csproj">
-      <Project>{4999bb1b-b5dc-462e-93e5-98672c5c9646}</Project>
-      <Name>XamarinProject</Name>
-    </ProjectReference>
-  </ItemGroup>
-  <ItemGroup>
     <BundleResource Include="Resources\ic_action_new%403x.png" />
   </ItemGroup>
   <ItemGroup>
@@ -163,6 +157,12 @@
   </ItemGroup>
   <ItemGroup>
     <BundleResource Include="Resources\ic_autorenew%402x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\XamarinProject\XamarinProject.csproj">
+      <Project>{5e9f95aa-4477-44ab-be66-719380cb3971}</Project>
+      <Name>XamarinProject</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.CSharp.targets" />
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">

@@ -11,7 +11,8 @@
 namespace XamarinProject {
     
     
-    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("C:\\kasra\\myPro\\XamarinProject\\XamarinProject\\XamarinProject\\MainPage.xaml")]
+    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("C:\\kasra\\Git\\xDemo\\XamarinTemplate\\XamarinProject\\XamarinProject\\XamarinProject\\M" +
+        "ainPage.xaml")]
     public partial class MainPage : global::Xamarin.Forms.ContentPage {
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]

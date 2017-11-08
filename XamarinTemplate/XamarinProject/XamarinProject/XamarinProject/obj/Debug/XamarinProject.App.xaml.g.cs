@@ -11,7 +11,8 @@
 namespace XamarinProject {
     
     
-    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("C:\\kasra\\myPro\\XamarinProject\\XamarinProject\\XamarinProject\\App.xaml")]
+    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("C:\\kasra\\Git\\xDemo\\XamarinTemplate\\XamarinProject\\XamarinProject\\XamarinProject\\A" +
+        "pp.xaml")]
     public partial class App : global::Xamarin.Forms.Application {
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
