@@ -1,8 +1,8 @@
-C:\kasra\Git\springBootAndXamarin\SpringBootTemplate\spring-boot-ajax-example\src\main\java\com\boot\demo\model\AjaxResponseBody.java
-C:\kasra\Git\springBootAndXamarin\SpringBootTemplate\spring-boot-ajax-example\src\main\java\com\boot\demo\controller\UserController.java
-C:\kasra\Git\springBootAndXamarin\SpringBootTemplate\spring-boot-ajax-example\src\main\java\com\boot\demo\model\AddUpdateUserCriteria.java
-C:\kasra\Git\springBootAndXamarin\SpringBootTemplate\spring-boot-ajax-example\src\main\java\com\boot\demo\controller\IndexController.java
-C:\kasra\Git\springBootAndXamarin\SpringBootTemplate\spring-boot-ajax-example\src\main\java\com\boot\demo\model\User.java
-C:\kasra\Git\springBootAndXamarin\SpringBootTemplate\spring-boot-ajax-example\src\main\java\com\boot\demo\services\UserService.java
-C:\kasra\Git\springBootAndXamarin\SpringBootTemplate\spring-boot-ajax-example\src\main\java\com\boot\demo\SpringBootWebApplication.java
-C:\kasra\Git\springBootAndXamarin\SpringBootTemplate\spring-boot-ajax-example\src\main\java\com\boot\demo\model\SearchOrDeleteCriteria.java
+C:\kasra\Git\xDemo3\SpringBootTemplate\spring-boot-ajax-example\src\main\java\com\boot\demo\model\User.java
+C:\kasra\Git\xDemo3\SpringBootTemplate\spring-boot-ajax-example\src\main\java\com\boot\demo\SpringBootWebApplication.java
+C:\kasra\Git\xDemo3\SpringBootTemplate\spring-boot-ajax-example\src\main\java\com\boot\demo\model\SearchOrDeleteCriteria.java
+C:\kasra\Git\xDemo3\SpringBootTemplate\spring-boot-ajax-example\src\main\java\com\boot\demo\controller\IndexController.java
+C:\kasra\Git\xDemo3\SpringBootTemplate\spring-boot-ajax-example\src\main\java\com\boot\demo\controller\UserController.java
+C:\kasra\Git\xDemo3\SpringBootTemplate\spring-boot-ajax-example\src\main\java\com\boot\demo\services\UserService.java
+C:\kasra\Git\xDemo3\SpringBootTemplate\spring-boot-ajax-example\src\main\java\com\boot\demo\model\AddUpdateUserCriteria.java
+C:\kasra\Git\xDemo3\SpringBootTemplate\spring-boot-ajax-example\src\main\java\com\boot\demo\model\AjaxResponseBody.java
